@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <title>Instructions</title>
+   <link rel="shortcut icon" type="image/jpg" href="images/Sorry Card.png"/>
+   <link rel="stylesheet" href="css/styles.css">
+   <script src="js/script.js"></script> 
+  </head>
+  <body>
+    <br>
+    <br>
+    <a class="rules-text" href="file:///C:/Users/tayam/Downloads/French%20CSS/index.html">Retournez au Menu Principal</a>
+    <br>
+    <script src="script.js"></script>
+    <h2 class="rules-text" id=rule-title style="font-size:50px">
+        <script>
+            dif = localStorage.getItem('difficulty');
+            set_str_dif();
+            document.write(str_dif);
+        </script>
+    </h2>
+    <br>
+    <div id="card">
+        <script>
+            document.getElementById('card').className = "card";
+        </script>
+        <div class="card-container" style="height: 600px;">
+            <img src="images/Sorry Card.png" id="front" class="card card-front" onclick="flip_card()">
+            <img src="images/cowfish.jpg" id="back" class="card-flip-180 card card-back" onclick="flip_card()">
+        </div>
+    </div>
+    <button class="rule-box" onclick="flip_card()" >English</button>
+  </body>
+</html>

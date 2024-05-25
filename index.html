@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+   <meta charset="utf-8">
+   <title>Désolée Jeu</title>
+   <link rel="shortcut icon" type="image/jpg" href="images/Sorry Card.png"/>
+   <link rel="stylesheet" href="css/styles.css">
+   <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="header"> 
+        <!--Header content-->
+        <img src="images/red piece.png" class="red-piece" alt="Desolee Piece, Rouge">
+        <img src="images/blue piece.png" class="blue-piece" alt="Desolee Piece, Bleu">
+        <img src="images/Sorry Title.png" class="logo-title" alt="DESOLEE, Le logo de jeu">
+        <img src="images/green piece.png" class="green-piece" alt="Desolee Piece, Vert">
+        <img src="images/yellow piece.png" class="yellow-piece" alt="Desolee Piece, Jaune">
+        <h5>Le Jeu de Vengeance Gratifiant!</h5>
+    </div>  
+    <a class="rules-text" href="file:///C:/Users/tayam/Downloads/French%20CSS/rules.html">Manuelle D'Instructions</a>
+    <div class="card-list">
+        <div class="easy" style="display:inline-block">
+            <a href="file:///C:/Users/tayam/Downloads/French%20CSS/cards.html">
+                <img src="images/Card Stack.png" class="card-stack" alt="Card Stack" onclick="localStorage.setItem('difficulty', 1)">
+            </a>
+            <h2 class="label">Facile</h2>
+        </div>
+
+        <div class="medium" style="display:inline-block">
+            <a href="file:///C:/Users/tayam/Downloads/French%20CSS/cards.html">
+                <img src="images/Card Stack.png" class="card-stack" alt="Card Stack" onclick="localStorage.setItem('difficulty', 2)">
+            </a>
+            <h2 class="label">Moyen</h2>
+        </div>
+
+        <div class="hard" style="display:inline-block">
+            <a href="file:///C:/Users/tayam/Downloads/French%20CSS/cards.html">
+                <img src="images/Card Stack.png" class="card-stack" alt="Card Stack" onclick="localStorage.setItem('difficulty', 3)">
+            </a>
+            <h2 class="label">Avancé</h2>
+        </div>
+
+        <div class="expert" style="display:inline-block">
+            <a href="file:///C:/Users/tayam/Downloads/French%20CSS/cards.html">
+                <img src="images/Card Stack.png" class="card-stack" alt="Card Stack" onclick="localStorage.setItem('difficulty', 4)">
+            </a>
+            <h2 class="label">Expert</h2>
+        </div>
+
+    </div>
+  </body>
+</html>
