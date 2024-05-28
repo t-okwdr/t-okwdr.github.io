@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <title>Instructions</title>
+   <link rel="shortcut icon" type="image/jpg" href="images/Sorry Card.png"/>
+   <link rel="stylesheet" href="css/styles.css">
+   <script src="js/script.js"></script> 
+   <script type="module" src="https://unpkg.com/@auroratide/flip-card/lib/define.js"></script>
+  </head>
+  <body>
+    <flip-card>
+        <section slot="front">
+            <img src="images/Sorry Card.png" onclick="flipcard()" class="flipcard">
+        </section>
+        <section slot="back">
+            <img src="images/Card Back.png" onclick="flipcard()" class="flipcard">
+        </section>
+    </flip-card>
+    <button class="rule-box" onclick="flipcard()">Flip</button>
+  </body>
+</html>

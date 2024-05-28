@@ -6,30 +6,128 @@
    <link rel="shortcut icon" type="image/jpg" href="images/Sorry Card.png"/>
    <link rel="stylesheet" href="css/styles.css">
    <script src="js/script.js"></script> 
+   <script type="module" src="https://unpkg.com/@auroratide/flip-card/lib/define.js"></script>
+   <style>
+    @font-face { font-family: Sorry; src: url('Advertisers Gothic ML.ttf'); } 
+    .card-value {
+       font-family: Sorry;
+    }
+  </style>
   </head>
   <body>
     <br>
     <br>
-    <a class="rules-text" href="https://t-okwdr.github.io/index.html">Retournez au Menu Principal</a>
+    <a class="rules-text" href="file:///C:/Users/tayam/Documents/French%20CSS/index.html">Retournez au Menu Principal</a>
     <br>
-    <script src="script.js"></script>
-    <h2 class="rules-text" id=rule-title style="font-size:50px">
+    <h2 class="rules-text card-value" id=rule-title style="font-size:50px">
         <script>
             dif = localStorage.getItem('difficulty');
             set_str_dif();
             document.write(str_dif);
         </script>
     </h2>
-    <br>
-    <div id="card">
+    <!-- <br> -->
+    <h2 class="card-info" id="data">
         <script>
-            document.getElementById('card').className = "card";
+            var card = generate_card();
+            if (dif==='1'){
+                question_dif=medium;
+                do{
+                    var question_num = rand(11,13);
+                }while (question_num==14);
+                //var question_num = rand(0,29);
+            }
+            if (dif==='2'){
+                question_dif=medium;
+                do{
+                    var question_num = rand(11,13);
+                }while (question_num==14);
+            }
+            if (dif==='3'){
+                question_dif=medium;
+                do{
+                    var question_num = rand(11,13);
+                }while (question_num==14);
+                //var question_num = rand(0,29);
+            }
+            if (dif==='4'){
+                question_dif=medium;
+                do{
+                    var question_num = rand(11,13);
+                }while (question_num==14);
+                //var question_num = rand(0,9);
+            }
+            var card_data;
+            var card_num;
+            if (card!=13){
+                card_num=card;
+                card_data=get_card_info(card);
+            }
+            else{
+                card_num="DÉSOLÉE!";
+                card_data=get_card_info("DÉSOLÉE!");
+            }
+            card_num+=" - ";
+
+            document.write(card_num);
+            document.write(card_data);
+            document.write("<br><br>");
         </script>
-        <div class="card-container" style="height: 600px;">
-            <img src="images/Sorry Card.png" id="front" class="card card-front" onclick="flip_card()">
-            <img src="images/cowfish.jpg" id="back" class="card-flip-180 card card-back" onclick="flip_card()">
+    </h2>
+    <flip-card>
+        <section slot="front">
+            <img src="images/Sorry Card.png" onclick="flipcard()" class="flipcard">
+        </section>
+        <section slot="back" class="back">
+            <img src="images/Card Back.png" onclick="flipcard()" class="flipcard back">
+            <canvas id="card-back" class="card-text back"></canvas>
+            <script>
+                document.fonts.ready.then(() => {
+                    var c = document.getElementById("card-back");
+                    var ctx = c.getContext("2d");
+                    //var card = generate_card();
+                    var question = question_dif[question_num].question;
+                    var lines = getLines(ctx,question,137);
+
+                    ctx.textAlign = "center";
+                    ctx.font = "40px Sorry";
+                    ctx.fillText(card, 150,45);
+
+                    var y = 80;
+                    var lineheight = 25;
+                    ctx.textAlign = "center";
+                    ctx.font = "20px Arial";
+                    y=75;
+                    lineheight=20;
+
+                    for (var i = 0; i<lines.length; i++)
+                        ctx.fillText(lines[i], 150, y + (i*lineheight) );
+                })
+                .catch(() => {
+                    console.log("Error");
+                });
+            </script>
+        </section>
+    </flip-card>
+    <!-- <h3 class="card-value" >Hello World</h3> -->
+    <div id="container">
+        <div class="answer">
+            <input class="ans-box" id="ans-1">
         </div>
     </div>
-    <button class="rule-box" onclick="flip_card()" >English</button>
+
+    <script>
+        const ans_box = document.getElementById("ans-1");
+        ans_box.style.width = ((question_dif[question_num]["answer1"].length*16)+50)+"px";
+        const container = document.getElementById("container");
+        const cloneBox = document.getElementById("answer");
+        //alert(question_dif[question_num].answer_count);
+        for (var i=1;i<question_dif[question_num].answer_count;i++){
+            cloneElement();
+        }
+    </script>
+    <div class="answer">
+        <button class="rule-box" onclick="check()">Soumettre</button>
+    </div>
   </body>
 </html>
