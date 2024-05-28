@@ -1,4 +1,4 @@
- .card-stack:hover{
+.card-stack:hover{
   height: 250px;
 }
  .easy:has(.card-stack:hover) .label {
@@ -123,47 +123,71 @@ h1 {
  display: none;
  justify-content: center; 
 }
-.card-container{
-  position: relative;
-}
-.card{
-  /* display: block; */
+
+.flipcard{
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
-  backface-visibility: hidden;
+  width: 700px;
   filter: drop-shadow(0 5px 5px rgba(0,0,0, 0.5));
-  transition: 
-    transform 1s,
-    filter 1s;
+  
+	--card-depth: 1em;
 }
-.card_flip_180{
-  /* filter: drop-shadow(0 5px 55px rgba(0,0,0, 0.5)); */
+flip-card {
+
+	--card-depth: 1em;
+
+
+	--corner-granularity: 16;
+	border-radius: 5em;
+  
+	--flip-height: 40em;
+	--flip-duration: 1s;
+}
+
+.card-container {
+	perspective: 125em;
+	perspective-origin: center;
+}
+
+.card-container flip-card {
+	perspective: none;
+}
+.card-text{
+  width: 700px;
+  height: 446.009px;
+  /* border: 1px solid #000000; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+  transform: rotateZ(180deg);
+}
+.back{
   position: absolute;
-  /* backface-visibility: hidden; */
-  transition: 
-    transform 1s,
-    filter 1s;
-  /* transform: rotateX(180deg); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.card_flip_0{
-  position: absolute;
-  /* filter: drop-shadow(0 5px 5px rgba(0,0,0, 0.5)); */
-  transition: 
-    transform 1s,
-    filter 1s;
-  /* transform: rotateX(0deg); */
+.card-value{
+  font-family: Sorry;
 }
-.card-front, .card-back{
-  position: absolute; 
-  /* Safari */
-  /* -webkit-backface-visibility: hidden; */
-  /* backface-visibility: hidden; */
+.card-info{
+  text-align: center;
+  visibility: hidden;
 }
-.card-back{
-  /* position: absolute; */
-  left: 50px;
-  /* z-index: -1; */
-  backface-visibility: hidden;
-  /* transform: rotateX(180deg); */
+.ans-box{
+  font-size: 1.5em; 
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: normal;
+  width: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.answer{
+  visibility: hidden;
 }

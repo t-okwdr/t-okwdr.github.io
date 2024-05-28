@@ -1,14 +1,5 @@
 {
-  "name": "desolee",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Taya",
-  "license": "ISC",
   "dependencies": {
-    "flipping-cards": "^2.1.0"
+    "@auroratide/flip-card": "^0.1.0"
   }
 }
