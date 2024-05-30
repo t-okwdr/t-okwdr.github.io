@@ -315,10 +315,10 @@ function check(){
         // userItem.style.visibility = 'hidden';
     });
     if (correct==ans_count){
-        alert("All answers correct!");
+        alert("Correcte! Vous pouvez bouger son pièce");
     }
     else{
-        alert("You suck loser!")
+        alert("Incorrecte! Vous ne pouvez pas bouger son pièce");
     }
 }
 
