@@ -104,9 +104,9 @@ medium[7]={question: "Comment on conjugue le verbe “recevoir” au passé comp
 answer_count: 1, answer1: "vous avez recu"};
 
 //Futur Proche
-medium[8]={question: "Utilise l’inversion (question) et récrivez la phrase au futur proche:\n“Il reste après le marathon”",
+medium[8]={question: "Utilise l’inversion (question) et récrivez la phrase au futur proche: “Il reste après le marathon”",
 answer_count: 1, answer1: "va t il rester apres le marathon"};
-medium[9]={question: "Utilise l’inversion (question) et récrivez la phrase au futur proche:\n“Elle prend un sandwich”",
+medium[9]={question: "Utilise l’inversion (question) et récrivez la phrase au futur proche: “Elle prend un sandwich”",
 answer_count: 1, answer1: "va t elle prendre un sandwich"};
 medium[10]={question: "Utilise l’inversion (question) et récrivez la phrase au futur proche: “Vous posez une question au prof”",
 answer_count: 1, answer1: "allez vous poser une question au prof"};
@@ -114,7 +114,7 @@ answer_count: 1, answer1: "allez vous poser une question au prof"};
 //Verbes Pronominaux
 medium[11]={question: "Conjuguez le verbe pronominal “se laver” au présent avec “Vous”.",
 answer_count: 1, answer1: "vous vous lavez"};
-medium[12]={question: "Transformez la phrase suivante au passé composé:\n“Elle se maquille”",
+medium[12]={question: "Transformez la phrase suivante au passé composé: “Elle se maquille”",
 answer_count: 1, answer1: "elle sest maquillee"};
 medium[13]={question: "Conjuguez le verbe pronominal “se lever” au futur proche avec “Tu”.",
 answer_count: 1, answer1: "tu vas te lever"};
@@ -125,17 +125,17 @@ answer4: "nous nous reveillons", answer5: "vous vous reveillez", answer6: "ils s
 //Futur Simple
 medium[15]={question: "Conjuguez le verbe “aller” au futur simple pour “nous”.",
 answer_count: 1, answer1: "nous irons"};
-medium[16]={question: "Réécrivez la phrase suivante au futur simple:\n“Je fais mes devoirs”.",
+medium[16]={question: "Réécrivez la phrase suivante au futur simple: “Je fais mes devoirs”.",
 answer_count: 1, answer1: "je ferai mes devoirs"};
 medium[17]={question: "Conjuguez le verbe “prendre” au futur simple pour “Elles”.",
 answer_count: 1, answer1: "elles prendront"};
-medium[18]={question: "Transformez la phrase suivante au futur simple:\n“Nous finissons notre projet”.",
+medium[18]={question: "Transformez la phrase suivante au futur simple: “Nous finissons notre projet”.",
 answer_count: 1, answer1: "nous finirons notre projet"};
 
 //Imparfait
 medium[19]={question: "Comment on conjugue le verbe “rire” à l'imparfait avec “Nous”?",
 answer_count: 1, answer1: "nous riions"};
-medium[20]={question: "Conjuguez à l’imparfait.\n“Ma mère ______ (se peigner) les cheveux”.",
+medium[20]={question: "Conjuguez à l’imparfait. “Ma mère ______ (se peigner) les cheveux”.",
 answer_count: 1, answer1: "se peignait"};
 
 //Conditionnel Present
@@ -144,7 +144,7 @@ answer_count: 6, answer1: "je faudrais", answer2: "tu faudrais", answer3: "il fa
 answer4: "nous faudrions", answer5: "vous faudriez", answer6: "ils faudraient"};
 medium[22]={question: "Conjuguez le verbe “jeter” au conditionnel pour “Il”.",
 answer_count: 1, answer1: "Il jetterait"};
-medium[23]={question: "Conjuguez au conditionnel:\n“Si j’avais du temps, je _______ (démarrer) une entreprise”.",
+medium[23]={question: "Conjuguez au conditionnel: “Si j’avais du temps, je _______ (démarrer) une entreprise”.",
 answer_count: 1, answer1: "demarrerais"};
 
 //Vocabulaire
@@ -171,25 +171,25 @@ hard[0]={question: "Conjuguez la phrase: Elle se les (les dents) est ____ (se br
 answer_count: 1, answer1: "brossees"};
 hard[1]={question: "Nous nous la (la mémoire) sommes ____ (se souvenir).",
 answer_count: 1, answer1: "souvienne"};
-hard[2]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé:\n“Nous découvrons le centre-ville”.",
+hard[2]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé: “Nous découvrons le centre-ville”.",
 answer_count: 1, answer1: "nous lavons decouvert"};
-hard[3]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé:\n“J'ouvre toutes les fenêtres”.",
+hard[3]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé: “J'ouvre toutes les fenêtres”.",
 answer_count: 1, answer1: "je les ai ouvertes"};
 
 //Plus-Que-Parfait
-hard[4]={question: "Conjuguez au plus-que-parfait:\n“Ils ________ (assassiner) leurs parents”.",
+hard[4]={question: "Conjuguez au plus-que-parfait: “Ils ________ (assassiner) leurs parents”.",
 answer_count: 1, answer1: "avaient assassine"};
-hard[5]={question: "Conjuguez au plus-que-parfait:\n“Sa nouvelle entreprise ________ (ouvrir) avant la pandémie”.",
+hard[5]={question: "Conjuguez au plus-que-parfait: “Sa nouvelle entreprise ________ (ouvrir) avant la pandémie”.",
 answer_count: 1, answer1: "avait ouvert"};
-hard[6]={question: "Conjuguez au plus-que-parfait:\n“Je ________ (ne plus se relaxer) après le travail”. (masc.)",
+hard[6]={question: "Conjuguez au plus-que-parfait: “Je ________ (ne plus se relaxer) après le travail”. (masc.)",
 answer_count: 1, answer1: "ne metais plus relaxe"};
-hard[7]={question: "Conjuguez au plus-que-parfait:\n“Tu ________ (arriver) plus tôt que moi”. (masc.)",
+hard[7]={question: "Conjuguez au plus-que-parfait: “Tu ________ (arriver) plus tôt que moi”. (masc.)",
 answer_count: 1, answer1: "etais arrive"};
 
 //Imparfait
 hard[8]={question: "Comment on conjugue le verbe “peindre” à l'imparfait avec “Je”.",
 answer_count: 1, answer1: "je peignais"};
-hard[9]={question: "Trouvez l'objet direct et indirect et récrivez la phrase à l'imparfait:\n“Nous donnons le livre à Paul”.",
+hard[9]={question: "Trouvez l'objet direct et indirect et récrivez la phrase à l'imparfait: “Nous donnons le livre à Paul”.",
 answer_count: 1, answer1: "nous le lui donnions"};
 hard[10]={question: "Comment on conjugue le verbe “croître” à l'imparfait avec “Elles”?",
 answer_count: 1, answer1: "elles croissaient"};
@@ -203,11 +203,11 @@ hard[13]={question: "Conjuguez les verbes “avoir, être, faire, aller” au co
 answer_count: 4, answer1: "tu aurais", answer2: "tu serais", answer3: "tu ferais", answer4: "tu irais"};
 
 //Gerondif/Adjectif Verbal
-hard[14]={question: "Complétez la phrase avec le gérondif:\n“Il mange un sandwich _______ (cuisiner)”.",
+hard[14]={question: "Complétez la phrase avec le gérondif: “Il mange un sandwich _______ (cuisiner)”.",
 answer_count: 1, answer1: "en cuisinant"};
-hard[15]={question: "Complétez la phrase avec le gérondif:\n“Il y a un chat _____ (courir) d’un chien”.",
+hard[15]={question: "Complétez la phrase avec le gérondif: “Il y a un chat _____ (courir) d’un chien”.",
 answer_count: 1, answer1: "courant"};
-hard[16]={question: "Complétez la phrase avec le gérondif:\n“Vous devenez un milliardaire ______ (travailler) forte”.",
+hard[16]={question: "Complétez la phrase avec le gérondif: “Vous devenez un milliardaire ______ (travailler) forte”.",
 answer_count: 1, answer1: "en travaillant"};
 
 //Vocabulaire
@@ -231,12 +231,12 @@ answer4: "nous nous sommes souvenus", answer5: "vous vous etes souvenus", answer
 hard[23]={question: "Conjuguez le verbe “envoyer” au futur simple pour toutes les personnes. (Utilisez il/ils)",
 answer_count: 6, answer1: "jenverrai", answer2: "tu enverras", answer3: "il enverra",
 answer4: "nous enverrons", answer5: "vous enverrez", answer6: "ils enverront"};
-hard[24]={question: "Recrivez la phrase suivante au futur simple:\n“Nous finissons nos devoirs”.",
+hard[24]={question: "Recrivez la phrase suivante au futur simple: “Nous finissons nos devoirs”.",
 answer_count: 1, answer1: "nous finirons nos devoirs"};
 hard[25]={question: "Conjuguez le verbe pronominal “se lever” au futur simple pour toutes les personnes. (Utilisez il/ils)",
 answer_count: 6, answer1: "je me leverai", answer2: "tu te leveras", answer3: "il se levera",
 answer4: "nous nous leverons", answer5: "vous vous leverez", answer6: "ils se leveront"};
-hard[26]={question: "Recrivez la phrase suivante au futur simple:\n“Les enfants sont heureux”.",
+hard[26]={question: "Recrivez la phrase suivante au futur simple: “Les enfants sont heureux”.",
 answer_count: 1, answer1: "les enfants seront heureux"};
 
 //Connaissances Variees (unfinished)
@@ -256,9 +256,9 @@ expert[1]={question: "Trouvez les pronoms compléments et récrivez la phrase au
 answer_count: 1, answer1: "souvienne"};
 
 //Gerondif/Adjectif Verbal
-expert[2]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé:\n“Nous voulons découvrir le centre-ville”.",
+expert[2]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé: “Nous voulons découvrir le centre-ville”.",
 answer_count: 1, answer1: "nous lavons decouvert"};
-expert[3]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé:\n“Je veux ouvrir toutes les fenêtres”.",
+expert[3]={question: "Trouvez l’objet direct et récrivez la phrase au passé composé: “Je veux ouvrir toutes les fenêtres”.",
 answer_count: 1, answer1: "je le lui y enverrais"};
 
 //Verbes Pronominaux (Ask Mo about 5)
@@ -268,7 +268,7 @@ expert[5]={question: "Conjuguez le verbe pronominal “se rappeler” au passé 
 answer_count: 1, answer1: "nous nous fumes rappeles"};
 
 //Imparfait
-expert[6]={question: "Conjuguez cette phrase:\n“Nous ______ (devoir) travailler très forte, si nous ______ (vouloir) réussir”.",
+expert[6]={question: "Conjuguez cette phrase: “Nous ______ (devoir) travailler très forte, si nous ______ (vouloir) réussir”.",
 answer_count: 2, answer1: "devrons", answer2: "voulons"};
 expert[7]={question: "Conjuguez le verbe “devoir” au futur simple pour toutes les personnes et conjuguez la phrase: “Demain, Je _____ (pouvoir) terminer mon projet”.",
 answer_count: 7, answer1: "je devrai", answer2: "tu devras", answer3: "il devra",
@@ -277,7 +277,7 @@ answer4: "nous devrons", answer5: "vous devrez", answer6: "ils devront", answer7
 //Connaissances Variees (unfinished)
 expert[8]={question: "Comment on conjugue le verbe “peindre” à l'imparfait avec “Je”.",
 answer_count: 1, answer1: "je peignais"};
-expert[9]={question: "Trouvez l'objet direct et indirect et récrivez la phrase à l'imparfait:\n“Nous donnons le livre à Paul”.",
+expert[9]={question: "Trouvez l'objet direct et indirect et récrivez la phrase à l'imparfait: “Nous donnons le livre à Paul”.",
 answer_count: 1, answer1: "nous le lui donnions"};
 
 
@@ -315,10 +315,10 @@ function check(){
         // userItem.style.visibility = 'hidden';
     });
     if (correct==ans_count){
-        alert("All answers correct!");
+        alert("Correct! Bougez un piece");
     }
     else{
-        alert("You suck loser!")
+        alert("Incorrecte!")
     }
 }
 
@@ -375,7 +375,7 @@ function get_card_info(value){
 }
 
 function getLines(ctx, text, maxWidth) {
-    var line_break = text.split("\n");
+    var line_break = text.split(" ");
     var words = line_break[0].split(" ");
     var lines = [];
     var currentLine = words[0];
