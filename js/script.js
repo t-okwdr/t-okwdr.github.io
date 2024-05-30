@@ -315,10 +315,10 @@ function check(){
         // userItem.style.visibility = 'hidden';
     });
     if (correct==ans_count){
-        alert("Correct! Bougez un piece");
+        alert("Correcte! Vous pouvez bougez une pièce");
     }
     else{
-        alert("Incorrecte!")
+        alert("Incorrecte! Vous ne pouvez pas bougez une pièce")
     }
 }
 
@@ -375,7 +375,7 @@ function get_card_info(value){
 }
 
 function getLines(ctx, text, maxWidth) {
-    var line_break = text.split(" ");
+    var line_break = text.split("\n");
     var words = line_break[0].split(" ");
     var lines = [];
     var currentLine = words[0];
