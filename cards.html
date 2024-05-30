@@ -31,31 +31,20 @@
         <script>
             var card = generate_card();
             if (dif==='1'){
-                question_dif=medium;
-                do{
-                    var question_num = rand(11,13);
-                }while (question_num==14);
-                //var question_num = rand(0,29);
+                question_dif=eassy;
+                var question_num = rand(0,26);
             }
             if (dif==='2'){
                 question_dif=medium;
-                do{
-                    var question_num = rand(11,13);
-                }while (question_num==14);
+                var question_num = rand(0,26);
             }
             if (dif==='3'){
-                question_dif=medium;
-                do{
-                    var question_num = rand(11,13);
-                }while (question_num==14);
-                //var question_num = rand(0,29);
+                question_dif=hard;
+                var question_num = rand(0,26);
             }
             if (dif==='4'){
-                question_dif=medium;
-                do{
-                    var question_num = rand(11,13);
-                }while (question_num==14);
-                //var question_num = rand(0,9);
+                question_dif=expert;
+                var question_num = rand(0,7);
             }
             var card_data;
             var card_num;
